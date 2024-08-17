@@ -20,6 +20,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
+    document.getElementById('messageContainer').style.fontSize = '13px';
     document.getElementById('messageContainer').innerHTML = 'Tối nay đi chơi với anh nhé, 8h30 anh qua đón chỗ cũ. Anh iu em, không ai biết con đường phía trước sẽ ra sao anh mong chúng mình có thể đi cùng nhau mãi mãi.......:3';
 
     // Mostrar otro gif después de 3 segundos
